@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 #loading data set
-st.cache_data
+st.cache()
 def load_data():
     df = pd.read_csv("vgsales.csv")
     return df
